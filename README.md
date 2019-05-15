@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://i.imgur.com/o558Qnq.png" align="center">
   <br>
-  <strong><i>A simple and functional Modmail bot for Discord.</i></strong>
+  <strong><i>A feature rich Modmail bot for Discord.</i></strong>
   <br>
   <br>
     
@@ -25,36 +25,31 @@
 </div>
 
 
-## How Does Modmail Work?
+## What is Modmail?
 
-<img src="https://i.imgur.com/GGukNDs.png" align="right" height="350">
-
-When a user sends a direct message to the bot, a channel is created within an isolated category. This channel is where messages will be relayed. To reply to the message, simply use the command `?reply` in the channel. A full list of commands can be found by using the `?help` command.
+Modmail's core functionality provides an efficient communications interface between server members and staff. When a member sends a direct message to the bot, a channel is created within an isolated category for that member. This channel is where messages will be relayed and where any available staff member can respond to that user.
 
 ## Features
 
-* Aesthetic command interfaces e.g Pagination via reactions
-* Highly Customisable:
-  * Bot activity, prefix, etc.
-  * Command permissions
+* **Highly Customisable**
+  * Bot activity, prefix, category, log channel, etc.
+  * Fully customisable command permission system.
   * Interface elements (color, responses, reactions, etc.)
   * Snippets and *command aliases*
   * Minimum account/guild age in order to create a thread.
-* Scheduled closing - e.g. `?close in 2 hours silently`
-* Blocking users e.g. `?block @user spamming for 2 days`
-* Get notified/subscribe for thread messages. (`?notify` and `?sub`)
-* Linked thread messages
-  * Editing/deleting a message on one end is synced with the other.
-* Thread logs, e.g. https://logs.modmail.tk/example
-  * When you close a thread, a log link is generated and posted to your log-channel.
+* **Thread logs**
+  * When you close a thread, a [log link](https://logs.modmail.tk/example) is generated and posted to your log channel.
   * Rendered in styled HTML like Discord.
   * Optional login in via Discord to protect your logs.
   * See past logs of a user with `?logs`
   * Searchable by text queries using `?logs search`
-* Optional automatic updates to stay up to date with the latest features.
+* **Robust implementation**
+  * Scheduled tasks in human time, e.g. `?close in 2 hours silently`.
+  * Editing and deleting messages is synced on both ends.
+  * Support for the full range of message content (mutliple images, files).
+  * Paginated commands interfaces via reactions.
   
-This list is ever growing thanks to active development and our exceptional contributors.
-
+This list is ever growing thanks to active development and our exceptional contributors. See a full list of documented commands by using the `help` command.
 
 ## Installation
 
